@@ -1,11 +1,11 @@
 if __name__ == "__main__":
     import multiprocessing
     multiprocessing.set_start_method('spawn', force=True)
-    import lumispy as lum
-    import hyperspy.api as hs
     import numpy as np
     import pandas as pd
     from datetime import datetime
+    from scipy.optimize import curve_fit
+    from concurrent.futures import ThreadPoolExecutor
 
     output_log = '/rds/user/cja69/hpc-work/python/cl_fit.log'
 
@@ -15,10 +15,8 @@ if __name__ == "__main__":
 
     #filepath = 'C:\\Users\\cobia\\OneDrive - University of Cambridge\\CL\\COBI-20250804\\HYP-SHORTEND09-REDO700\\HYPCard_corrected.hspy'
     # filepath = 'C:\\Users\\cobia\\OneDrive - University of Cambridge\\CL\\COBI20250707\\HYP-LONGEND00\\HYPCard_corrected.hspy'
-    filepath = '/rds/user/cja69/hpc-work/python/HYPCard_corrected.hspy'
-
-    cl_sem = hs.load(filepath, signal_type='CL_SEM')
-    cl_sem_eV_si = cl_sem.to_eV(inplace=False, jacobian=False)
+    filepath = '/rds/user/cja69/hpc-work/python/HYPCard_corrected.npy'
+    axis_value_file = '/rds/user/cja69/hpc-work/python/axis_values.npy'
 
     # m_si = cl_sem_eV_si.create_model()
     # bkg_si = hs.model.components1D.Offset()
@@ -60,13 +58,11 @@ if __name__ == "__main__":
         sigma = fwhm / (2 * np.sqrt(2 * np.log(2)))
         return height * np.exp(-(x - center)**2 / (2 * sigma**2)) + offset
 
-    import numpy as np
-    from scipy.optimize import curve_fit
-    from concurrent.futures import ThreadPoolExecutor
+
 
     # shape (256, 256, 1024)
-    image = cl_sem_eV_si.data  # your data cube
-    axis_values = cl_sem_eV_si.axes_manager[2].axis  # shape (1024,), non-uniform energy axis
+    image = np.load(filepath)  # your data cube
+    axis_values = np.load(axis_value_file)  # shape (1024,), non-uniform energy axis
 
     # reshape to (65536, 1024) for easier iteration
     pixels = image.reshape(-1, image.shape[-1])

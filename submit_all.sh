@@ -1,0 +1,32 @@
+#!/bin/bash
+
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-LONGEND00_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-LONGEND01_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-LONGEND02_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-LONGEND03_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-LONGEND04_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-LONGEND05_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-LONGEND06_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-LONGEND-06-REDO_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-LONGEND07_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-LONGEND-07-REDO_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-LONGEND08_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-LONGEND-08-REDO_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-LONGEND09_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND-01_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND-02_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND-03_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND-04_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND-04-REDO2_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND-05_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND-05-REDO_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND-06_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND-07_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND07-REDO700_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND-08_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND08-REDO7000_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND08-REDO700_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND-09_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND09-REDO700-2_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND-10_submit.sh
+sbatch /rds/user/cja69/hpc-work/python/submission_scripts/HYP-SHORTEND10-REDO700_submit.sh

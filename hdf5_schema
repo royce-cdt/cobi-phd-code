@@ -1,0 +1,87 @@
+// Database
+digraph {
+	fontsize=10 rankdir=TB
+	root [label="AFM and Hyperspectral CL Dataset" color=lightblue shape=box3d style=filled]
+	root_CL [label=CL shape=folder]
+	root -> root_CL
+	root_CL_raw [label=raw shape=folder]
+	root_CL -> root_CL_raw
+	"root_CL_raw_image_001 [256x256x1024]" [label="image_001 [256x256x1024]" shape=note]
+	root_CL_raw -> "root_CL_raw_image_001 [256x256x1024]"
+	"root_CL_raw_image_002 [256x256x1024]" [label="image_002 [256x256x1024]" shape=note]
+	root_CL_raw -> "root_CL_raw_image_002 [256x256x1024]"
+	root_CL_processed [label=processed shape=folder]
+	root_CL -> root_CL_processed
+	"root_CL_processed_image_001_processed [256x256x3]" [label="image_001_processed [256x256x3]" shape=note]
+	root_CL_processed -> "root_CL_processed_image_001_processed [256x256x3]"
+	root_CL_cutouts [label=cutouts shape=folder]
+	root_CL -> root_CL_cutouts
+	root_CL_cutouts_from_image_001 [label=from_image_001 shape=folder]
+	root_CL_cutouts -> root_CL_cutouts_from_image_001
+	root_CL_cutouts_from_image_001_raw [label=raw shape=folder]
+	root_CL_cutouts_from_image_001 -> root_CL_cutouts_from_image_001_raw
+	"root_CL_cutouts_from_image_001_raw_cutout_00 [15x15x1024]" [label="cutout_00 [15x15x1024]" shape=note]
+	root_CL_cutouts_from_image_001_raw -> "root_CL_cutouts_from_image_001_raw_cutout_00 [15x15x1024]"
+	"root_CL_cutouts_from_image_001_raw_cutout_01 [15x15x1024]" [label="cutout_01 [15x15x1024]" shape=note]
+	root_CL_cutouts_from_image_001_raw -> "root_CL_cutouts_from_image_001_raw_cutout_01 [15x15x1024]"
+	root_CL_cutouts_from_image_001_processed [label=processed shape=folder]
+	root_CL_cutouts_from_image_001 -> root_CL_cutouts_from_image_001_processed
+	"root_CL_cutouts_from_image_001_processed_cutout_00 [15x15x3]" [label="cutout_00 [15x15x3]" shape=note]
+	root_CL_cutouts_from_image_001_processed -> "root_CL_cutouts_from_image_001_processed_cutout_00 [15x15x3]"
+	"root_CL_cutouts_from_image_001_processed_cutout_01 [15x15x3]" [label="cutout_01 [15x15x3]" shape=note]
+	root_CL_cutouts_from_image_001_processed -> "root_CL_cutouts_from_image_001_processed_cutout_01 [15x15x3]"
+	root_CL_metadata [label=metadata shape=folder]
+	root_CL -> root_CL_metadata
+	root_CL_metadata_acquisition_params [label=acquisition_params shape=folder]
+	root_CL_metadata -> root_CL_metadata_acquisition_params
+	root_CL_metadata_acquisition_params_image_001_params [label=image_001_params shape=note]
+	root_CL_metadata_acquisition_params -> root_CL_metadata_acquisition_params_image_001_params
+	root_CL_metadata_cutout_coords [label=cutout_coords shape=folder]
+	root_CL_metadata -> root_CL_metadata_cutout_coords
+	"root_CL_metadata_cutout_coords_image_001_cutouts [N x 2]" [label="image_001_cutouts [N x 2]" shape=note]
+	root_CL_metadata_cutout_coords -> "root_CL_metadata_cutout_coords_image_001_cutouts [N x 2]"
+	root_AFM [label=AFM shape=folder]
+	root -> root_AFM
+	root_AFM_raw [label=raw shape=folder]
+	root_AFM -> root_AFM_raw
+	"root_AFM_raw_afm_001 [512x512]" [label="afm_001 [512x512]" shape=note]
+	root_AFM_raw -> "root_AFM_raw_afm_001 [512x512]"
+	root_AFM_processed [label=processed shape=folder]
+	root_AFM -> root_AFM_processed
+	"root_AFM_processed_afm_001_filtered [512x512]" [label="afm_001_filtered [512x512]" shape=note]
+	root_AFM_processed -> "root_AFM_processed_afm_001_filtered [512x512]"
+	root_AFM_cutouts [label=cutouts shape=folder]
+	root_AFM -> root_AFM_cutouts
+	root_AFM_cutouts_from_afm_001 [label=from_afm_001 shape=folder]
+	root_AFM_cutouts -> root_AFM_cutouts_from_afm_001
+	"root_AFM_cutouts_from_afm_001_cutout_00 [15x15]" [label="cutout_00 [15x15]" shape=note]
+	root_AFM_cutouts_from_afm_001 -> "root_AFM_cutouts_from_afm_001_cutout_00 [15x15]"
+	"root_AFM_manual labels" [label="manual labels" shape=folder]
+	root_AFM -> "root_AFM_manual labels"
+	"root_AFM_manual labels_afm_001_manual_labels.csv" [label="afm_001_manual_labels.csv" shape=note]
+	"root_AFM_manual labels" -> "root_AFM_manual labels_afm_001_manual_labels.csv"
+	"root_AFM_manual labels_afm_002_manual_labels.csv" [label="afm_002_manual_labels.csv" shape=note]
+	"root_AFM_manual labels" -> "root_AFM_manual labels_afm_002_manual_labels.csv"
+	root_AFM_metadata [label=metadata shape=folder]
+	root_AFM -> root_AFM_metadata
+	root_AFM_metadata_acquisition_params [label=acquisition_params shape=folder]
+	root_AFM_metadata -> root_AFM_metadata_acquisition_params
+	root_AFM_metadata_acquisition_params_afm_001_params [label=afm_001_params shape=note]
+	root_AFM_metadata_acquisition_params -> root_AFM_metadata_acquisition_params_afm_001_params
+	root_AFM_metadata_cutout_coords [label=cutout_coords shape=folder]
+	root_AFM_metadata -> root_AFM_metadata_cutout_coords
+	"root_AFM_metadata_cutout_coords_afm_001_cutouts [N x 2]" [label="afm_001_cutouts [N x 2]" shape=note]
+	root_AFM_metadata_cutout_coords -> "root_AFM_metadata_cutout_coords_afm_001_cutouts [N x 2]"
+	root_alignment [label=alignment shape=folder]
+	root -> root_alignment
+	root_alignment_CSVs [label=CSVs shape=folder]
+	root_alignment -> root_alignment_CSVs
+	"root_alignment_CSVs_image_001_alignment_points.csv" [label="image_001_alignment_points.csv" shape=note]
+	root_alignment_CSVs -> "root_alignment_CSVs_image_001_alignment_points.csv"
+	"root_alignment_CSVs_image_002_alignment_points.csv" [label="image_002_alignment_points.csv" shape=note]
+	root_alignment_CSVs -> "root_alignment_CSVs_image_002_alignment_points.csv"
+	root_alignment_transformers [label=transformers shape=folder]
+	root_alignment -> root_alignment_transformers
+	"root_alignment_transformers_image_001_transformers.pkl" [label="image_001_transformers.pkl" shape=note]
+	root_alignment_transformers -> "root_alignment_transformers_image_001_transformers.pkl"
+}
