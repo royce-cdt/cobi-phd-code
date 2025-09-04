@@ -8,40 +8,16 @@ if __name__ == "__main__":
     from datetime import datetime
     import os
 
-    cl_files = [ 
-    r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI20250707\HYP-LONGEND00\HYPCard_corrected.hspy" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI20250707\HYP-LONGEND01\HYPCard_corrected.hspy" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI20250707\HYP-LONGEND02\HYPCard_corrected.hspy" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI20250707\HYP-LONGEND03\HYPCard_corrected.hspy" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI20250707\HYP-LONGEND04\HYPCard_corrected.hspy" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI20250707\HYP-LONGEND05\HYPCard_corrected.hspy" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI20250707\HYP-LONGEND06\HYPCard_corrected.hspy" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI20250707\HYP-LONGEND07\HYPCard_corrected.hspy" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI20250707\HYP-LONGEND08\HYPCard_corrected.hspy" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI20250707\HYP-LONGEND09\HYPCard_corrected.hspy" 
-    ] \
-    + [ 
-    r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-LONGEND-06-REDO\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-LONGEND-07-REDO\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-LONGEND-08-REDO\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND-01\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND-02\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND-03\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND-04\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND-04-REDO2\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND-05\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND-05-REDO\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND-06\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND-07\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND-08\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND-09\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND-10\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND07-REDO700\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND08-REDO700\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND08-REDO7000\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND09-REDO700-2\HYPCard_corrected.sur" 
-    ,r"C:\Users\cobia\OneDrive - University of Cambridge\CL\COBI-20250804\HYP-SHORTEND10-REDO700\HYPCard_corrected.sur" 
-    ] 
+    cl_files = ['C:\\Users\\cobia\\OneDrive - University of Cambridge\\CL\\session_2025_02_28\\HYP-SI-OLD-LOC1-INSIDE-L-2\\HYPCard_corrected.hspy',
+                'C:\\Users\\cobia\\OneDrive - University of Cambridge\\CL\\session_2025_02_28\\HYP-SI-OLD-LOC1-OUTSIDE-L-1\\HYPCard_corrected.hspy',
+                'C:\\Users\\cobia\\OneDrive - University of Cambridge\\CL\\COBI20250321\\HYP-SI-FAT-END-OUTSIDE-03-AFM\\HYPCard_corrected.hspy',
+                'C:\\Users\\cobia\\OneDrive - University of Cambridge\\CL\\COBI20250321\\HYP-SI-FAT-END-OUTSIDE-04-AFM-REDO\\HYPCard_corrected.hspy',
+                'C:\\Users\\cobia\\OneDrive - University of Cambridge\\CL\\COBI20250321\\HYP-SI-FAT-END-OUTSIDE-05-AFM-REDO\\HYPCard_corrected.hspy',
+                'C:\\Users\\cobia\\OneDrive - University of Cambridge\\CL\\COBI20250321\\HYP-SI-FAT-END-OUTSIDE-06-AFM-REDO\\HYPCard_corrected.hspy',
+                'C:\\Users\\cobia\\OneDrive - University of Cambridge\\CL\\COBI-20250501\\HYP-SI-FAT-END-OUTSIDE-07\\HYPCard_corrected.hspy',
+                'C:\\Users\\cobia\\OneDrive - University of Cambridge\\CL\\COBI-20250501\\HYP-SI-FAT-END-OUTSIDE-08\\HYPCard_corrected.hspy',
+                'C:\\Users\\cobia\\OneDrive - University of Cambridge\\CL\\COBI-20250501\\HYP-SI-FAT-END-OUTSIDE-09\\HYPCard_corrected.hspy',
+                'C:\\Users\\cobia\\OneDrive - University of Cambridge\\CL\\COBI-20250501\\HYP-SI-FAT-END-OUTSIDE-10\\HYPCard_corrected.hspy']
 
     # output_log = 'cl_fit.log'
 

@@ -1,0 +1,3326 @@
+{
+  "Ciao image list": [
+    {
+      "Data offset": 80960,
+      "Data length": 1048576,
+      "Bytes/pixel": 4,
+      "Start context": "OL",
+      "Data type": "AFM",
+      "Data Type Description": "",
+      "Note": "",
+      "Plane fit": "0 0 0 5",
+      "Frame direction": "Down",
+      "Capture start line": 0,
+      "Color Table Index": 12,
+      "Relative frame time": 4031.51,
+      "Invalid Data Flag": "None",
+      "Invalid Data Fill": "None",
+      "Samps/line": 512,
+      "Number of lines": 512,
+      "Aspect Ratio": "1:1",
+      "Scan Size": {
+        "value": [
+          3.0,
+          3.0
+        ],
+        "unit": "micrometer"
+      },
+      "Scan Line": "Main",
+      "Line Direction": "Retrace",
+      "Highpass": 0,
+      "Lowpass": 0,
+      "Realtime Planefit": "Line",
+      "Offline Planefit": "None",
+      "Valid data start X": 0,
+      "Valid data start Y": 0,
+      "Valid data len X": 512,
+      "Valid data len Y": 512,
+      "Tip x width correction factor": 1,
+      "Tip y width correction factor": 1,
+      "Tip x width correction factor sigma": 1,
+      "Tip y width correction factor sigma": 1,
+      "2:Image Data": {
+        "_type": "SelectParameter",
+        "value": "Height Sensor"
+      },
+      "Z magnify": {
+        "_type": "ScaleParameter",
+        "value": 0.000232447
+      },
+      "2:Z scale": {
+        "_type": "ValueParameter",
+        "value": {
+          "value": 24.576,
+          "unit": "V"
+        }
+      },
+      "2:Z offset": {
+        "_type": "ValueParameter",
+        "value": {
+          "value": -0.5712617,
+          "unit": "V"
+        }
+      }
+    },
+    {
+      "Data offset": 1129536,
+      "Data length": 1048576,
+      "Bytes/pixel": 2,
+      "Start context": "OL",
+      "Data type": "AFM",
+      "Data Type Description": "",
+      "Note": "",
+      "Plane fit": "0 0 0 5",
+      "Frame direction": "Down",
+      "Capture start line": 0,
+      "Color Table Index": 12,
+      "Relative frame time": 4031.51,
+      "Invalid Data Flag": "None",
+      "Invalid Data Fill": "None",
+      "Samps/line": 512,
+      "Number of lines": 512,
+      "Aspect Ratio": "1:1",
+      "Scan Size": {
+        "value": [
+          3.0,
+          3.0
+        ],
+        "unit": "micrometer"
+      },
+      "Scan Line": "Main",
+      "Line Direction": "Retrace",
+      "Highpass": 0,
+      "Lowpass": 0,
+      "Realtime Planefit": "Bow",
+      "Offline Planefit": "None",
+      "Valid data start X": 0,
+      "Valid data start Y": 0,
+      "Valid data len X": 512,
+      "Valid data len Y": 512,
+      "Tip x width correction factor": 1,
+      "Tip y width correction factor": 1,
+      "Tip x width correction factor sigma": 1,
+      "Tip y width correction factor sigma": 1,
+      "2:Image Data": {
+        "_type": "SelectParameter",
+        "value": "Peak Force Error"
+      },
+      "Z magnify": {
+        "_type": "ScaleParameter",
+        "value": 0.0003255208
+      },
+      "2:Z scale": {
+        "_type": "ValueParameter",
+        "value": {
+          "value": 24.576,
+          "unit": "V"
+        }
+      },
+      "2:Z offset": {
+        "_type": "ValueParameter",
+        "value": {
+          "value": 0.0,
+          "unit": "V"
+        }
+      }
+    },
+    {
+      "Data offset": 2178112,
+      "Data length": 1048576,
+      "Bytes/pixel": 2,
+      "Start context": "OL",
+      "Data type": "AFM",
+      "Data Type Description": "",
+      "Note": "",
+      "Plane fit": "0 0 0 5",
+      "Frame direction": "Down",
+      "Capture start line": 0,
+      "Color Table Index": 12,
+      "Relative frame time": 4031.51,
+      "Invalid Data Flag": "None",
+      "Invalid Data Fill": "None",
+      "Samps/line": 512,
+      "Number of lines": 512,
+      "Aspect Ratio": "1:1",
+      "Scan Size": {
+        "value": [
+          3.0,
+          3.0
+        ],
+        "unit": "micrometer"
+      },
+      "Scan Line": "Main",
+      "Line Direction": "Retrace",
+      "Highpass": 0,
+      "Lowpass": 0,
+      "Realtime Planefit": "Line",
+      "Offline Planefit": "None",
+      "Valid data start X": 0,
+      "Valid data start Y": 0,
+      "Valid data len X": 512,
+      "Valid data len Y": 512,
+      "Tip x width correction factor": 1,
+      "Tip y width correction factor": 1,
+      "Tip x width correction factor sigma": 1,
+      "Tip y width correction factor sigma": 1,
+      "2:Image Data": {
+        "_type": "SelectParameter",
+        "value": "Height"
+      },
+      "Z magnify": {
+        "_type": "ScaleParameter",
+        "value": 0.0007297909
+      },
+      "2:Z scale": {
+        "_type": "ValueParameter",
+        "value": {
+          "value": 323.0926,
+          "unit": "V"
+        }
+      },
+      "2:Z offset": {
+        "_type": "ValueParameter",
+        "value": {
+          "value": 23.2256,
+          "unit": "V"
+        }
+      }
+    }
+  ],
+  "File list": {
+    "Version": "0x09700108",
+    "Date": "2025-07-09 12:04:26",
+    "Start context": "OL2BIG",
+    "Data length": 80960,
+    "User Rating": 0,
+    "Text": "",
+    "History": "",
+    "Navigator note": "",
+    "Engage X Pos": {
+      "value": -19783.4,
+      "unit": "\u00b5m"
+    },
+    "Engage Y Pos": {
+      "value": -42151.3,
+      "unit": "\u00b5m"
+    }
+  },
+  "Equipment list": {
+    "Description": "Dimension Icon",
+    "Sensor": "None",
+    "Vision": "uEye UI148xLE-C #1",
+    "Scanner file": "1a0246.scn"
+  },
+  "Scanner list": {
+    "Scanner type": "Dim 4000",
+    "Head Type": "SG",
+    "Serial Number": "1a0246",
+    "Part Number": "900-050312",
+    "Piezo size": "G",
+    "File name": "1a0246.scn",
+    "Retracted offset der": -4.4,
+    "Extended offset der": 11.5,
+    "Allow rotation": "Allow",
+    "Piezo cal": 440,
+    "X sensitivity": 141.076,
+    "X derate": 0.1671,
+    "X mag": 0.85,
+    "X mag1": 0.9,
+    "X arg": 3.05,
+    "Fast arg derate": 0,
+    "Orthogonality": -0.00698132,
+    "scan angle offset": -0.00436332,
+    "Y sensitivity": 143.056,
+    "Y derate": 0.1526,
+    "Y mag": 0.75,
+    "Y mag1": 0.9,
+    "Y arg": 2.8,
+    "Slow arg derate": 0.005,
+    "X slow sensitivity": 146.735,
+    "X slow derate": 0.185376,
+    "Y fast sensitivity": 144.117,
+    "Y fast derate": 0.164279,
+    "X slow-fast coupling": 0.319447,
+    "X slow-fast coupling derating": 0,
+    "Y slow-fast coupling": 0.333493,
+    "Y slow-fast coupling derating": 0,
+    "Fast cal freq": 2.44141,
+    "Slow cal freq": 4.76838,
+    "Xs-Yf coupling": 0.0749485,
+    "Xs-Yf coupling derating": 0,
+    "Ys-Xf coupling": 0.11832,
+    "Ys-Xf coupling derating": 0,
+    "X offset sens": 218.2,
+    "Y offset sens": 216.4,
+    "Max scan size": 92,
+    "Z min": -220,
+    "Z max": 110,
+    "Z engage position": -55,
+    "Z to X coupling": 6,
+    "Z to Y coupling": 0.5,
+    "Z to X coupling FF": 6,
+    "Z to Y coupling FF": 0.5,
+    "StrainXY Scanner": "Yes",
+    "OptoXY x sensitivity": 360.2,
+    "OptoXY y sensitivity": 367,
+    "OptoXY orthogonality": -0.010472,
+    "OptoXY x sens fitted": 370.8,
+    "OptoXY y sens fitted": 374.5,
+    "OptoXY orthog fitted": 0,
+    "OptoXY scan angle cor": 0,
+    "OptoXY pgain/igain": 0.05,
+    "Optoxy FitVersion": "V1",
+    "OptoXY xsenscal_x": 0,
+    "OptoXY xsenscal_y": 0,
+    "OptoXY xsenscal_xy": 0,
+    "OptoXY xsenscal_xx": 0,
+    "OptoXY xsenscal_yy": 0,
+    "OptoXY xsenscal_xxy": 0,
+    "OptoXY xsenscal_xyy": 0,
+    "OptoXY xsenscal_xxx": 0,
+    "OptoXY xsenscal_yyy": 0,
+    "OptoXY xsenscal_xxyy": 0,
+    "OptoXY xsenscal_xxxy": 0,
+    "OptoXY xsenscal_xyyy": 0,
+    "OptoXY xsenscal_xxxx": 0,
+    "OptoXY xsenscal_yyyy": 0,
+    "OptoXY ysenscal_x": 0,
+    "OptoXY ysenscal_y": 0,
+    "OptoXY ysenscal_xy": 0,
+    "OptoXY ysenscal_xx": 0,
+    "OptoXY ysenscal_yy": 0,
+    "OptoXY ysenscal_xxy": 0,
+    "OptoXY ysenscal_xyy": 0,
+    "OptoXY ysenscal_xxx": 0,
+    "OptoXY ysenscal_yyy": 0,
+    "OptoXY ysenscal_xxyy": 0,
+    "OptoXY ysenscal_xxxy": 0,
+    "OptoXY ysenscal_xyyy": 0,
+    "OptoXY ysenscal_xxxx": 0,
+    "OptoXY ysenscal_yyyy": 0,
+    "OptoXY orthocal_x": 0,
+    "OptoXY orthocal_y": 0,
+    "OptoXY orthocal_xy": 0,
+    "OptoXY orthocal_xx": 0,
+    "OptoXY orthocal_yy": 0,
+    "ClosedLoop x igain": 12,
+    "ClosedLoop y igain": 12,
+    "Offset X TC0": 1.0058,
+    "Offset X TC1": 72.2872,
+    "Offset X TC2": 1931.17,
+    "Offset X Gain0": 0,
+    "Offset X Gain1": 0.00375469,
+    "Offset X Gain2": 0.0348583,
+    "Offset Y TC0": 1.0058,
+    "Offset Y TC1": 1.0058,
+    "Offset Y TC2": 360.378,
+    "Offset Y Gain0": 0,
+    "Offset Y Gain1": 0,
+    "Offset Y Gain2": 0.00639671,
+    "Z Sensor TC0": 1.44225,
+    "Z Sensor TC1": 18.6345,
+    "Z Sensor TC2": 169.405,
+    "Z Sensor Gain0": 0.00223416,
+    "Z Sensor Gain1": 0.00144057,
+    "Z Sensor Gain2": 0.0025682,
+    "Z range sens": 44.1013,
+    "StrainZ Scanner": "Yes",
+    "Z sensor sens": 481.5,
+    "Z sensor gain factor": 2,
+    "Z sensor offset gain": 3.352,
+    "Full Range Sensor Gain": 0.6,
+    "Z sensor LinOC": -0.0362014,
+    "Z sensor LinC1": 1,
+    "Z sensor LinC2": 0.00937023,
+    "Z sensor LinC3": 0.0192286,
+    "Z sensor LinC4": -0.104392,
+    "Z sensor Linearization": "Yes",
+    "Adaptive XY Feedback Scanner": "Yes",
+    "Adaptive ScanSizeExpRatio": 0.5,
+    "Adaptive Minimal Scan Size": 10,
+    "Adaptive Minimal Scan Rate": 0.2,
+    "Adaptive x RefPolarity": -1,
+    "Adaptive y RefPolarity": -1,
+    "Adaptive x PlantGain": 2,
+    "Adaptive y PlantGain": 2,
+    "Adaptive x SensorNoise": 320,
+    "Adaptive y SensorNoise": 320,
+    "Adaptive x CutOffFreq": 200,
+    "Adaptive y CutOffFreq": 200,
+    "Adaptive x Feedback BW": 2,
+    "Adaptive y Feedback BW": 2,
+    "Adaptive X DC Gain": 4,
+    "Adaptive Y DC Gain": 4,
+    "Illumination Scale Factor": 0.15,
+    "Illumination Range": 1023,
+    "Max tip velocity": 2000,
+    "XY digital CL xIgain": 12,
+    "XY digital CL yIgain": 12,
+    "XY digital CL pgain/igain": 0.05,
+    "XY digital CL cutoff frequency": 300,
+    "Sens. Zsens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 42.41063,
+        "unit": "nm/V"
+      }
+    },
+    "Sens. CurrentSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 10.0,
+        "unit": "nA/V"
+      }
+    },
+    "Sens. SECPMSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 100.0,
+        "unit": "mV/V"
+      }
+    },
+    "Sens. Xsensor": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 6447.844,
+        "unit": "nm/V"
+      }
+    },
+    "Sens. Ysensor": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 6569.569,
+        "unit": "nm/V"
+      }
+    }
+  },
+  "Ciao scan list": {
+    "Parameter select": "Main",
+    "Operating mode": "Image",
+    "Tip Serial Number": "",
+    "Tip Scanned Distance": 131157,
+    "Tip Frame Count": 23,
+    "Scan Size": {
+      "value": 3000.0,
+      "unit": "nm"
+    },
+    "Slow Axis Size": {
+      "value": 3000.0,
+      "unit": "nm"
+    },
+    "X Position": 0,
+    "Y Position": 0,
+    "X Offset": {
+      "value": -3046.88,
+      "unit": "nm"
+    },
+    "Y Offset": {
+      "value": 3046.88,
+      "unit": "nm"
+    },
+    "Rotate Ang.": 0,
+    "Stage X": 63395,
+    "Stage Y": 149718,
+    "Stage Z": -18693,
+    "Stage Optics": -4095.75,
+    "X round": 0,
+    "Tip Offset X": 0,
+    "Tip Offset Y": 0,
+    "NanoTrack X Offset Set": 0,
+    "NanoTrack Y Offset Set": 0,
+    "NanoTrack X Offset Actual": 0,
+    "NanoTrack Y Offset Actual": 0,
+    "Samps/line": 512,
+    "Lines": 512,
+    "Y disable": "Enabled",
+    "Aspect Ratio": "1:1",
+    "Link Slow Axis Size": "Yes",
+    "bidirectional scan": "Disabled",
+    "Rectilinear Scan": "Disabled",
+    "Calibrate Scan Line Shift": "Off",
+    "Scan line shift": 0,
+    "QNM scan line shift": 0,
+    "Line offset factor": 0,
+    "Line average": "No",
+    "Scan Rate": 0.596192,
+    "Dark Lift Delay": 300,
+    "Tip Velocity": 3.57715,
+    "Zoom in at Constant": "Scan Rate",
+    "XY Move Tip Pos": "Surface",
+    "Minimum scan rate": 0.1,
+    "Lift rate": 4,
+    "X drift": 0,
+    "Y drift": 0,
+    "Step XY size": 300,
+    "Cycles": 10,
+    "Step XY period": 0.005,
+    "Step size": 3,
+    "Units": "Metric",
+    "Setpoint Units": "nm",
+    "Clear Buffer for new Scan Area": "No",
+    "Color table": 2,
+    "Scope dualtrace": "Dual",
+    "Auto X Sep": 0,
+    "Auto Y Sep": 0,
+    "Auto pattern": "Linear",
+    "Auto number": 2,
+    "Capture direction": "Down",
+    "Capture prelines": 50,
+    "Engage Setpoint": 0.85,
+    "Min int. gain": 10,
+    "Parameter Update Retract": "Disabled",
+    "Parameter Update FB": "On",
+    "Capture mode ": "Single",
+    "Captured Automatically": 0,
+    "MIROView Scan Direction": 0,
+    "Gain Normalization": "None",
+    "Gain Factor": 1,
+    "Initial Setpoint": 0.2,
+    "Potential Feedback": "Off",
+    "Potential Feedback Inter": "Off",
+    "Frequency Feedback": "Off",
+    "Frequency Feedback Inter": "Off",
+    "Potential Type": "Off",
+    "Potential Type Inter": "Off",
+    "Freq. Control": "Automatic",
+    "Freq. Control Inter": "Automatic",
+    "Drive feedback": "Disabled",
+    "Drive time": 0,
+    "Drive setpoint": 1,
+    "Drive gain": 80,
+    "Start size": {
+      "value": 13199.8,
+      "unit": "nm"
+    },
+    "Pass 2 size": {
+      "value": 10000.0,
+      "unit": "nm"
+    },
+    "Pass 3 size": {
+      "value": 5000.0,
+      "unit": "nm"
+    },
+    "Pass 4 size": {
+      "value": 2000.0,
+      "unit": "nm"
+    },
+    "Feature scan angle": 0,
+    "Feature Scan rate": 1,
+    "Feature step size": 0.138889,
+    "Feature setpoint": 0.8,
+    "Feature threshold": 2000,
+    "Pass delay": 5,
+    "Z offset": 0,
+    "Z tolerance": 245.821,
+    "Engage X offset": {
+      "value": 0.0,
+      "unit": "nm"
+    },
+    "Engage Y offset": {
+      "value": 0.0,
+      "unit": "nm"
+    },
+    "Engage step size": 0.138889,
+    "Engage Z sens.": 12.5,
+    "Engage Z avg.": 10,
+    "Engage Z delay": 0.5,
+    "Height engage": "Disabled",
+    "Extended Current sens": {
+      "value": 1.0,
+      "unit": "pA/V"
+    },
+    "PF Extended Current sens": {
+      "value": 100.0,
+      "unit": "pA/V"
+    },
+    "Bias limit": {
+      "value": 12.0,
+      "unit": "V"
+    },
+    "AFM Current Sensitivity": {
+      "value": 1.0,
+      "unit": "nA/V"
+    },
+    "SECPM sens": {
+      "value": 100.0,
+      "unit": "mV/V"
+    },
+    "Current range": {
+      "value": 200.0,
+      "unit": "nA"
+    },
+    "Generic amp sens": {
+      "value": 1.0,
+      "unit": "V/A"
+    },
+    "Z Range": 14.2488,
+    "Strip chart ": "Disabled",
+    "Strip Chart Rate": 500,
+    "Strip Chart Size": 100,
+    "XY Closed Loop": "Off",
+    "OptoXY Do Linear": "Off",
+    "Z Closed Loop": "Off",
+    "Analog2 High Voltage": 0,
+    "Analog22 High Voltage": 0,
+    "Output 1 Data Type": "Off",
+    "Output 2 Data Type": "Off",
+    "Meter display ctrl.": "Hidden",
+    "Meter Display Mode": "Vertical/Horiz",
+    "Stop motor": "Disabled",
+    "Display level": 127,
+    "XY Feedback Control": "Digital",
+    "Show Thermal Tune Button": "Expanded Mode",
+    "Show HSDC Button": "Expanded Mode",
+    "Show Point & Shoot Button": "Expanded Mode",
+    "Show Potential Controls": "Neither",
+    "Show Frame Rate Control": "Hidden",
+    "Show Repulsion Time Indicator": "Hidden",
+    "Enable Optical Image Dewarping": "Off",
+    "Z Sensor Correction": "Disabled",
+    "XY Drift Correction": "Disabled",
+    "Torsional Freq": 950,
+    "Torsional Q": 1000,
+    "Sample Rate": 10,
+    "Sample Points": 256,
+    "Cycles to Average": 32,
+    "Harmonics To Correct": 1,
+    "Max Harmonics": 20,
+    "Force Data Points": 64,
+    "Calculation Period": 60,
+    "Interaction Time": 0.24,
+    "Invert Torsional": "Yes",
+    "Invert Vertical": "Yes",
+    "Unload Fit Region": 0.7,
+    "Lift Height": 92.2615,
+    "Sync Distance": 80.025,
+    "Sync Distance New": 80.025,
+    "Sync Distance QNM": 80.025,
+    "Peak Force Engage Amplitude": 150,
+    "Peak Force Engage Setpoint": 0.15,
+    "Top Fit Region": 0.3,
+    "Peak Force Amplitude": 150,
+    "QNM Calibration": "DefaultByZ",
+    "Adhesion Algorithm": "Threshold Crossing",
+    "Adhesion Fit %": 0.1,
+    "Cursor A": 0,
+    "Cursor B": 60,
+    "Live Cell Background Removal": "Off",
+    "Dynamic Sync Distance": "Off",
+    "Force Filter": "Off",
+    "Signal/Noise Threshold": 2,
+    "Cutoff Modulus": 0.3,
+    "Auto Sync Distance": "On",
+    "Auto Sync Distance QNM": "On",
+    "Fluid Cell": "No",
+    "Medium": "Air",
+    "Deformation Fit Region": 0.98,
+    "Tip Radius": 1.5,
+    "Cantilever Angle": 12,
+    "Sample Poisson's Ratio": 0.3,
+    "Tip Half Angle": 0.314159,
+    "Include Adhesion Force": "Yes",
+    "Min Force Fit Boundary": 20,
+    "Max Force Fit Boundary": 80,
+    "Modulus Fit Model": "Hertzian (Spherical)",
+    "ScanAsyst Setup": "Allow",
+    "ScanAsyst Auto Control": "Individual",
+    "ScanAsyst Auto Gain": "Off",
+    "ScanAsyst Auto Setpoint": "Off",
+    "ScanAsyst Auto Scan Rate": "Off",
+    "ScanAsyst Auto Z Limit": "Off",
+    "ScanAsyst Noise Threshold": 1,
+    "ScanAsyst AutoConfig Frames": 0,
+    "Scan Target Threshold": 0.005,
+    "Scan Acceptable Threshold": 0.1,
+    "Scan Max Optimizing Time": 30,
+    "Skip Offset Optimization": "No",
+    "Perfusion Cell Temperature": "",
+    "FalseDefl Scan DitheringBits": 0,
+    "Scan Single Frame Number": 1,
+    "Idle Depolarize Warning Time": 7200,
+    "Idle Depolarize Withdraw Time": 18000,
+    "Idle Depolarize Threshold": 0.05,
+    "Auto Adjust Rounding": "No",
+    "Peak Current Average Region": 0.0001,
+    "I2C Test": "Off",
+    "Peak Force Freq Method": "Pre-Set",
+    "PFT Freq": {
+      "value": 2.0,
+      "unit": "kHz"
+    },
+    "Peak Force Freq Divider": 256,
+    "Tip Drive Noise Threshold": 0.2,
+    "Tip Drive PFT Amplitude": 100,
+    "SyncDistQNM Filter Factor": 1,
+    "Use Freq Based QNM Calibration": "Off",
+    "Sync Distance QNM 8K": 0,
+    "Sync Distance QNM 4K": 0,
+    "Sync Distance QNM 2K": 0,
+    "Sync Distance QNM 1K": 0,
+    "Sync Distance QNM 0.5K": 0,
+    "Sync Distance QNM 0.25K ": 0,
+    "Sync Distance QNM 0.125K": 0,
+    "PFT Amplitude Sens 8K": 0,
+    "PFT Amplitude Sens 4K": 0,
+    "PFT Amplitude Sens 2K": 0,
+    "PFT Amplitude Sens 1K": 0,
+    "PFT Amplitude Sens 0.5K": 0,
+    "PFT Amplitude Sens 0.25K": 0,
+    "PFT Amplitude Sens 0.125K": 0,
+    "Auto PFT Ampl. Sens": "On",
+    "Apply DDS3 Sens Factor": "Yes",
+    "PFT Ampl. Sens Factor": 0.02,
+    "SyncDistance Display": "Percentage",
+    "ScanAsyst Min. Setpoint": 0.02,
+    "ScanAsyst Max. Setpoint": 3,
+    "ScanAsyst Gain Factor": 0,
+    "ScanAsyst Gain Threshold": 100,
+    "PeakForce Capture": "Never",
+    "Reduced Z Delay": 2,
+    "Z Auto Center Boundary": 0,
+    "EOL Capture Enable": "Off",
+    "EOL Capture Trigger Position": "End of Trace",
+    "EOL Capture Time Interval": 20,
+    "EOL Caputre Ramp Option": "None",
+    "EOL Capture Ramp Delay": 0.8,
+    "EOL Capture Camera Source": "Internal",
+    "External captured frame path": "E:",
+    "EOL Capture File Reading Timeout": 8,
+    "EOL Capture Output": "Show",
+    "EOL Send Stop Trigger": "On",
+    "NanoTrack Path Simulation": "Off",
+    "PseudoRT Path Simulation": "Off",
+    "NanoTrack Max Row Shift": 10,
+    "NanoTrack Max Col Shift": 10,
+    "NanoTrack Channel": 1,
+    "NanoTrack Min Correlation": 0.8,
+    "Scan Park Lift Height": 500,
+    "Adaptive Interleave": "Never",
+    "Z Slew Rate Limit": 0,
+    "Touch Calibration Sweep Range": 400,
+    "Touch Calibration Force Setpoint": 0.2,
+    "Auto Amplitude Setpoint": "Off",
+    "Free Amplitude": 500,
+    "Setpoint/Amplitude Ratio": 0.9,
+    "Amplitude Lift Height": 100,
+    "Fast Tapping": "Off",
+    "FF Phase Shift": 0,
+    "FF Use Min. Trace Retrace": "On",
+    "FF Block Converge Data": "Off",
+    "Converge Lines": 0,
+    "FF Use Z Sensor Data": "Off",
+    "FF Zin2Zout Scale": 1,
+    "FF Defl2Z Scale": 0,
+    "LP CutOff": 200,
+    "Defl HP CutOff": 10,
+    "FF Use Line Tracking": "On",
+    "AmplitudeCutRatio": 0.4,
+    "DeflectionCutRatioOfRMS": 5,
+    "BadPointsLimitPercentage": 0.1,
+    "AbsMDiffTraceRetrace2AbsMTrace": 0.5,
+    "TraceRetraceDiffLimit": 1.5,
+    "Max Data Points": 512,
+    "Curves to Average": "None",
+    "IR Trigger": "Off",
+    "IR Trigger Pulse Len": 0,
+    "IR Trigger Skip Slots": 0,
+    "IR Group Triggers": 0,
+    "IR Trigger is EOF": "Off",
+    "IR Trigger is EOL": "Off",
+    "TM DDS1 Route": "Tapping Piezo Only",
+    "Ramp Segments Max": "Max 30",
+    "QNM Mode": "Off",
+    "InterleaveList": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "LinearizeList": {
+      "_type": "SelectParameter",
+      "value": "modeLinearizeOff"
+    },
+    "DarkLiftList": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "FPGA Z Feedback": {
+      "_type": "SelectParameter",
+      "value": "On"
+    },
+    "MicroscopeList": {
+      "_type": "SelectParameter",
+      "value": "ScanAsyst"
+    },
+    "LPDeflection": {
+      "_type": "SelectParameter",
+      "value": "Enabled"
+    },
+    "LP TM Deflection": {
+      "_type": "SelectParameter",
+      "value": "Enabled"
+    },
+    "LP Current": {
+      "_type": "SelectParameter",
+      "value": "Enabled"
+    },
+    "LP Vertical Deflection": {
+      "_type": "SelectParameter",
+      "value": "Enabled"
+    },
+    "Low Pass Frequency": {
+      "_type": "SelectParameter",
+      "value": "Enabled"
+    },
+    "LP Friction": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "LP TM Friction": {
+      "_type": "SelectParameter",
+      "value": "Enabled"
+    },
+    "PicoAnglerPollOnOff": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "ThermalTuneMaxFreq": {
+      "_type": "SelectParameter",
+      "value": "1 - 100 KHz"
+    },
+    "TipBiasCntrlList": {
+      "_type": "SelectParameter",
+      "value": "Ground"
+    },
+    "Sample Bias Control": {
+      "_type": "SelectParameter",
+      "value": "Ground"
+    },
+    "HSADCMuxOnOff": {
+      "_type": "SelectParameter",
+      "value": "modeHSADCMuxAny"
+    },
+    "HsdcChanADataType": {
+      "_type": "SelectParameter",
+      "value": "Off"
+    },
+    "HsdcChanBDataType": {
+      "_type": "SelectParameter",
+      "value": "Off"
+    },
+    "FastScan List": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "FastZFeedback List": {
+      "_type": "SelectParameter",
+      "value": "Digital"
+    },
+    "TR Mode": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "VerticalGainControlList": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "SCM Feedback": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "2:HsdcChanCDataType": {
+      "_type": "SelectParameter",
+      "value": "Off"
+    },
+    "3:HsdcChanCDataType": {
+      "_type": "SelectParameter",
+      "value": "Off"
+    },
+    "2:HsdcChanDDataType": {
+      "_type": "SelectParameter",
+      "value": "Height"
+    },
+    "3:HsdcChanDDataType": {
+      "_type": "SelectParameter",
+      "value": "Off"
+    },
+    "2:HsdcTriggerChan": {
+      "_type": "SelectParameter",
+      "value": "Height"
+    },
+    "3:HsdcTriggerChan": {
+      "_type": "SelectParameter",
+      "value": "Height"
+    },
+    "2:SPMFeedbackList": {
+      "_type": "SelectParameter",
+      "value": "Peak Force"
+    },
+    "3:SPMFeedbackList": {
+      "_type": "SelectParameter",
+      "value": "Peak Force"
+    },
+    "4:DDS1RoutingTappingMode": {
+      "_type": "SelectParameter",
+      "value": "Null"
+    },
+    "5:DDS1RoutingTappingMode": {
+      "_type": "SelectParameter",
+      "value": "Null"
+    },
+    "4:DDS1RoutingFastScanAsystMode": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "5:DDS1RoutingFastScanAsystMode": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "2:Drive1Routing": {
+      "_type": "SelectParameter",
+      "value": "Null"
+    },
+    "3:Drive1Routing": {
+      "_type": "SelectParameter",
+      "value": "Null"
+    },
+    "2:Drive1Monitor": {
+      "_type": "SelectParameter",
+      "value": "Not Available"
+    },
+    "3:Drive1Monitor": {
+      "_type": "SelectParameter",
+      "value": "Not Available"
+    },
+    "2:MainLockInEnableContactMode": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "3:MainLockInEnableContactMode": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "4:MainLockInEnableFastScanAsystMode": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "5:MainLockInEnableFastScanAsystMode": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "4:MainLockInEnableNonContactMode": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "5:MainLockInEnableNonContactMode": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "4:LockIn1SourceTappingMode": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "5:LockIn1SourceTappingMode": {
+      "_type": "SelectParameter",
+      "value": "Vertical"
+    },
+    "4:LockIn1SourceFastScanAsystMode": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "5:LockIn1SourceFastScanAsystMode": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "2:MainLockInSource": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "3:MainLockInSource": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "4:Zmod": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "5:Zmod": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "2:LateralGainControl": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "3:LateralGainControl": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "2:InputFbList": {
+      "_type": "SelectParameter",
+      "value": "Off"
+    },
+    "3:InputFbList": {
+      "_type": "SelectParameter",
+      "value": "Off"
+    },
+    "4:TR Mode": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "5:TR Mode": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "4:TRCouplingCheck": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "5:TRCouplingCheck": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "2:LockIn2DDS2Enable": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "3:LockIn2DDS2Enable": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "4:DDS2HarmonicList": {
+      "_type": "SelectParameter",
+      "value": "1"
+    },
+    "5:DDS2HarmonicList": {
+      "_type": "SelectParameter",
+      "value": "1"
+    },
+    "2:LockIn2Source": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "3:LockIn2Source": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "2:Drive2Routing": {
+      "_type": "SelectParameter",
+      "value": "Null"
+    },
+    "3:Drive2Routing": {
+      "_type": "SelectParameter",
+      "value": "Null"
+    },
+    "2:Drive2Monitor": {
+      "_type": "SelectParameter",
+      "value": "Not Available"
+    },
+    "3:Drive2Monitor": {
+      "_type": "SelectParameter",
+      "value": "Not Available"
+    },
+    "4:PRLockInTypeList": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "5:PRLockInTypeList": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "4:PiezoACBiasCtrlList": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "5:PiezoACBiasCtrlList": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "4:VerticalGainControlList": {
+      "_type": "SelectParameter",
+      "value": "Enabled"
+    },
+    "5:VerticalGainControlList": {
+      "_type": "SelectParameter",
+      "value": "Enabled"
+    },
+    "4:SCM Feedback": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "5:SCM Feedback": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "4:TUNAList": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "5:TUNAList": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "2:Drive3RoutingSoftHarmoniX": {
+      "_type": "SelectParameter",
+      "value": "Z Offset"
+    },
+    "3:Drive3RoutingSoftHarmoniX": {
+      "_type": "SelectParameter",
+      "value": "Z Offset"
+    },
+    "4:Drive3RoutingSoftHarmoniXRamp": {
+      "_type": "SelectParameter",
+      "value": "Z Offset"
+    },
+    "5:Drive3RoutingSoftHarmoniXRamp": {
+      "_type": "SelectParameter",
+      "value": "Z Offset"
+    },
+    "4:Drive3Routing": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "5:Drive3Routing": {
+      "_type": "SelectParameter",
+      "value": ""
+    },
+    "2:Drive3Monitor": {
+      "_type": "SelectParameter",
+      "value": "Not Available"
+    },
+    "3:Drive3Monitor": {
+      "_type": "SelectParameter",
+      "value": "Not Available"
+    },
+    "2:LockIn3EnableList": {
+      "_type": "SelectParameter",
+      "value": "Enabled"
+    },
+    "3:LockIn3EnableList": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "2:LockIn3SourceSoftHarmoniX": {
+      "_type": "SelectParameter",
+      "value": "Vertical"
+    },
+    "3:LockIn3SourceSoftHarmoniX": {
+      "_type": "SelectParameter",
+      "value": "Disabled"
+    },
+    "4:LockIn3SourceNonSoftHarmoniX": {
+      "_type": "SelectParameter",
+      "value": "Vertical"
+    },
+    "5:LockIn3SourceNonSoftHarmoniX": {
+      "_type": "SelectParameter",
+      "value": "Vertical"
+    },
+    "Sens. DeflSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 50.0,
+        "unit": "nm/V"
+      }
+    },
+    "Sens. AmplSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 50.0,
+        "unit": "nm/V"
+      }
+    },
+    "Sens. DeflectionIn1BSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 50.0,
+        "unit": "nm/V"
+      }
+    },
+    "Sens. FVModulusSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "Pa/Arb"
+      }
+    },
+    "Sens. FVLogModulusSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "log_Pa/log_Arb"
+      }
+    },
+    "Sens. FVForceSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "nN/Arb"
+      }
+    },
+    "Sens. FVStiffnessSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "Arb*N/m"
+      }
+    },
+    "Sens. FVSweepF0Sens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "Hz/Arb"
+      }
+    },
+    "Sens. FVSweepQSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "1/Arb"
+      }
+    },
+    "Sens. FVSweepAmpSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "nm/Arb"
+      }
+    },
+    "Sens. FVSweepFitRSqSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "1/Arb"
+      }
+    },
+    "Sens. FVCRNormContactStiffSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "1/Arb"
+      }
+    },
+    "Sens. FVCRDampingCoeffSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "1/Arb"
+      }
+    },
+    "Sens. FVCRRadiusSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "nm/Arb"
+      }
+    },
+    "Sens. FVCRStorageModSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "Pa/Arb"
+      }
+    },
+    "Sens. FVCRLossModSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "Pa/Arb"
+      }
+    },
+    "Sens. FVCRLossTanSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "1/Arb"
+      }
+    },
+    "Sens. ECBiasSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1000.0,
+        "unit": "mV/V"
+      }
+    },
+    "Sens. AFMSetFastScanSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": ""
+      }
+    },
+    "Sens. ZsensSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 875.2556,
+        "unit": "nm/V"
+      }
+    },
+    "Sens. ZPicoSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1000.0,
+        "unit": "nm/V"
+      }
+    },
+    "Sens. LSPRDataSensitivity": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. LSPRAmplitudeSensitivity": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. HSPRDataSensitivity": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. HSPRAmplitudeSensitivity": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. tunaSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.01,
+        "unit": "nA/V"
+      }
+    },
+    "Sens. biassens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": ""
+      }
+    },
+    "Sens. testsens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": ""
+      }
+    },
+    "Sens. SecmEtipSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": ""
+      }
+    },
+    "Sens. SecmItipSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.0,
+        "unit": "nA/V"
+      }
+    },
+    "Sens. SecmISens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 100.0,
+        "unit": "\u00b5A/V"
+      }
+    },
+    "Sens. Amplitude Error": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 50.0,
+        "unit": "nm/V"
+      }
+    },
+    "Sens. Phase": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Phase Error": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Friction": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. TM Deflection": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 50.0,
+        "unit": "nm/V"
+      }
+    },
+    "Sens. TM Friction": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Inphase": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Quadrature": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Amplitude1": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Raw Deflection": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Raw Deflection Gain": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Counter 1": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Counter 2": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Freq. 1": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Freq. 2": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Fast Z Analog": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Fast Z": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Fast RMS": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Fast Deflection Analog": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Fast Deflection Error": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Frequency": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Potential": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Potential (HV)": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. dCdZ": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. TR Amplitude": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. TR Amplitude Error": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. TR Phase": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Amplitude2": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. HS PR Phase": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. MFM Amplitude": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. MFM Phase": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. dC/dV Amplitude": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. dC/dV Amplitude Error": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. dC/dV I": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. dC/dV Q": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. dC/dV Phase": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Feedback Bias": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Log(Resistance)": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Input1": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Input2": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. Input3": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. DriveAmplitude3Sens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 955.4908,
+        "unit": "nm/V"
+      }
+    },
+    "Sens. ForceDeflSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 12.5,
+        "unit": "nN/V"
+      }
+    },
+    "Sens. ForceSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.075,
+        "unit": "nN/Arb"
+      }
+    },
+    "Sens. DissipationSens": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. DeformationSens": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 4777.454,
+        "unit": "nm/V"
+      }
+    },
+    "Sens. StiffnessSens": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. LogStiffnessSens": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. SneddonModulusSens": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Sens. LogSneddonModulusSens": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "Offset PotentialInputOffset": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "Offset SecmInputOffsetEtip": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": -0.0,
+        "unit": "V"
+      }
+    },
+    "Offset SecmInputOffsetItip": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "Offset SecmInputOffsetI": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": -0.0,
+        "unit": "V"
+      }
+    },
+    "Sample period": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 26.0,
+        "unit": "\u00b5s"
+      }
+    },
+    "Z center": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 55.0,
+        "unit": "V"
+      }
+    },
+    "1:ZLimit": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 323.0926,
+        "unit": "V"
+      }
+    },
+    "1:ZLimitRamp": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 49.67315,
+        "unit": "V"
+      }
+    },
+    "1:AmplitudeLimit1": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2000.0,
+        "unit": "mV"
+      }
+    },
+    "1:TRAmplitudeLimit": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2500.0,
+        "unit": "mV"
+      }
+    },
+    "1:SCMAmplitudeLimit": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 4000.0,
+        "unit": "mV"
+      }
+    },
+    "2:AmplitudeLimit1LockIn1and2": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 4000.0,
+        "unit": "mV"
+      }
+    },
+    "2:AmplitudeLimit1LockIn1": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 4000.0,
+        "unit": "mV"
+      }
+    },
+    "2:AmplitudeLimit1LockIn2": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 4000.0,
+        "unit": "mV"
+      }
+    },
+    "2:DeflectionLimitNDma": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 24.576,
+        "unit": "V"
+      }
+    },
+    "2:DeflectionLimitLockIn3LSADC1": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 24.576,
+        "unit": "V"
+      }
+    },
+    "2:DeflectionLimit": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 24.576,
+        "unit": "V"
+      }
+    },
+    "2:TMDeflectionLimitLockIn3LSADC1": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 24.576,
+        "unit": "V"
+      }
+    },
+    "2:TMDeflectionLimit": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 24.576,
+        "unit": "V"
+      }
+    },
+    "2:HSADC2GainLockIn2and1": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 4000.0,
+        "unit": "mV"
+      }
+    },
+    "2:HSADC2GainLockIn2": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1000.0,
+        "unit": "mV"
+      }
+    },
+    "2:HSADC2GainLockIn1": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 4000.0,
+        "unit": "mV"
+      }
+    },
+    "2:LSADC2Gain": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 24.576,
+        "unit": "V"
+      }
+    },
+    "2:LSADC9Gain": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 24.576,
+        "unit": "V"
+      }
+    },
+    "Lift Start Height": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "Lift Scan Height": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 4.506534,
+        "unit": "V"
+      }
+    },
+    "Drive height": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:SoftHarmoniXSetpoint": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.016125,
+        "unit": "V"
+      }
+    },
+    "3:SoftHarmoniXSetpoint": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:AFMSetDeflection": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "V"
+      }
+    },
+    "3:AFMSetDeflection": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "V"
+      }
+    },
+    "2:TMSetAmplitude": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 205.2307,
+        "unit": "mV"
+      }
+    },
+    "3:TMSetAmplitude": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "2:TMSetDeflection": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:TMSetDeflection": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:TMSetFastScan": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:TMSetFastScan": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:AFMSetFastScanAnalog": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:AFMSetFastScanAnalog": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:AFMSetFastScanDigital": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:AFMSetFastScanDigital": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:STMSetCurrent": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.1,
+        "unit": "V"
+      }
+    },
+    "3:STMSetCurrent": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 10.0,
+        "unit": "V"
+      }
+    },
+    "2:TRSetAmplitude": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 270.0,
+        "unit": "mV"
+      }
+    },
+    "3:TRSetAmplitude": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 270.0,
+        "unit": "mV"
+      }
+    },
+    "2:SetTRVertDefl": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:SetTRVertDefl": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:SECPMSetPotential": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2.0,
+        "unit": "V"
+      }
+    },
+    "3:SECPMSetPotential": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2.0,
+        "unit": "V"
+      }
+    },
+    "2:TMSetPhase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "3:TMSetPhase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "2:DigitalSetPoint": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.25,
+        "unit": "V"
+      }
+    },
+    "3:DigitalSetPoint": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.25,
+        "unit": "V"
+      }
+    },
+    "2:TRSetPhase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "3:TRSetPhase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "2:NanoTrenchSetPoint": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:NanoTrenchSetPoint": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:AFMFbIgain2Factor": {
+      "_type": "ValueParameter",
+      "value": 32.0
+    },
+    "3:AFMFbIgain2Factor": {
+      "_type": "ValueParameter",
+      "value": 32.0
+    },
+    "2:AFMFbPgain2": {
+      "_type": "ValueParameter",
+      "value": 0
+    },
+    "3:AFMFbPgain2": {
+      "_type": "ValueParameter",
+      "value": 0
+    },
+    "2:Sample Bias": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "3:Sample Bias": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "2:Tip Bias": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:Tip Bias": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:Analog2": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:Analog2": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:CantFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 12.99999,
+        "unit": "kHz"
+      }
+    },
+    "3:CantFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "2:CantFrequencyContactMode": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 55.0,
+        "unit": "kHz"
+      }
+    },
+    "3:CantFrequencyContactMode": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "2:CantDrive": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 783.386,
+        "unit": "mV"
+      }
+    },
+    "3:CantDrive": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "2:CantDriveContactMode": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "3:CantDriveContactMode": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "2:CantDriveNulled": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "3:CantDriveNulled": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "2:DriveDCOffsetTappingMode": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:DriveDCOffsetTappingMode": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:DriveDCOffsetNonTapping": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:DriveDCOffsetNonTapping": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:DriveDCOffsetFastScanAsyst": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:DriveDCOffsetFastScanAsyst": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:ReferenceFrequencyTappingMode": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 12.99999,
+        "unit": "kHz"
+      }
+    },
+    "3:ReferenceFrequencyTappingMode": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "2:ReferenceFrequency1": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 55.0,
+        "unit": "kHz"
+      }
+    },
+    "3:ReferenceFrequency1": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "2:CantPhase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 131.133,
+        "unit": "deg"
+      }
+    },
+    "3:CantPhase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "2:CantPhaseContactMode": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "3:CantPhaseContactMode": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "2:LockInBW1": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 5.487,
+        "unit": "kHz"
+      }
+    },
+    "3:LockInBW1": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "2:LockInBW1ContactMode": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "3:LockInBW1ContactMode": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "2:TRCantileverFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1000.0,
+        "unit": "kHz"
+      }
+    },
+    "3:TRCantileverFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1000.0,
+        "unit": "kHz"
+      }
+    },
+    "2:ReferenceFrequencyTRMode": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "3:ReferenceFrequencyTRMode": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "2:TROnAnalog3": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 10.0,
+        "unit": "V"
+      }
+    },
+    "3:TROnAnalog3": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 10.0,
+        "unit": "V"
+      }
+    },
+    "2:ReferenceFrequency2": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "3:ReferenceFrequency2": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "2:ReferenceFrequency2Harmonic": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "3:ReferenceFrequency2Harmonic": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "2:DrivePhase2": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "3:DrivePhase2": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "2:LockIn2BW": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.212,
+        "unit": "kHz"
+      }
+    },
+    "3:LockIn2BW": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "2:LockIn2BWHarmonic": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.211,
+        "unit": "kHz"
+      }
+    },
+    "3:LockIn2BWHarmonic": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.211,
+        "unit": "kHz"
+      }
+    },
+    "2:DriveFrequency2": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "3:DriveFrequency2": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "2:DriveAmplitude2": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "3:DriveAmplitude2": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "2:Drive2 DC Offset": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:Drive2 DC Offset": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:PRLowSpeedLockinBW": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.3,
+        "unit": "kHz"
+      }
+    },
+    "3:PRLowSpeedLockinBW": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.3,
+        "unit": "kHz"
+      }
+    },
+    "2:PRLowSpeedDriveAmplitude": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2000.0,
+        "unit": "mV"
+      }
+    },
+    "3:PRLowSpeedDriveAmplitude": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2000.0,
+        "unit": "mV"
+      }
+    },
+    "2:PRLowSpeedDriveFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 15.0,
+        "unit": "kHz"
+      }
+    },
+    "3:PRLowSpeedDriveFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 15.0,
+        "unit": "kHz"
+      }
+    },
+    "2:PRLowSpeedDrivePhase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "3:PRLowSpeedDrivePhase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "2:PRHighSpeedLockinBW": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.75,
+        "unit": "kHz"
+      }
+    },
+    "3:PRHighSpeedLockinBW": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.75,
+        "unit": "kHz"
+      }
+    },
+    "2:PRHighSpeedDriveAmplitude": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2000.0,
+        "unit": "mV"
+      }
+    },
+    "3:PRHighSpeedDriveAmplitude": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2000.0,
+        "unit": "mV"
+      }
+    },
+    "2:PRHighSpeedDriveFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 60.0,
+        "unit": "kHz"
+      }
+    },
+    "3:PRHighSpeedDriveFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 60.0,
+        "unit": "kHz"
+      }
+    },
+    "2:PRHighSpeedDrivePhase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "3:PRHighSpeedDrivePhase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "2:MFMLockinBW": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.211,
+        "unit": "kHz"
+      }
+    },
+    "3:MFMLockinBW": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.211,
+        "unit": "kHz"
+      }
+    },
+    "2:MFMDriveAmplitude": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "3:MFMDriveAmplitude": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "2:MFMDriveFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "3:MFMDriveFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "2:MFMDrivePhase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "3:MFMDrivePhase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "2:MFMDriveDCOffset": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:MFMDriveDCOffset": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:ACBiasAmpl": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "3:ACBiasAmpl": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "2:BiasFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "3:BiasFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "2:SCMLockInBW": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "3:SCMLockInBW": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.5,
+        "unit": "kHz"
+      }
+    },
+    "2:SCMLockInPhase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "3:SCMLockInPhase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "2:DCBias": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:DCBias": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:Capacitance Sensor Frequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 880.0,
+        "unit": "MHz"
+      }
+    },
+    "3:Capacitance Sensor Frequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 880.0,
+        "unit": "MHz"
+      }
+    },
+    "2:SCMIgain": {
+      "_type": "ValueParameter",
+      "value": 10.0
+    },
+    "3:SCMIgain": {
+      "_type": "ValueParameter",
+      "value": 10.0
+    },
+    "2:SCMPgain": {
+      "_type": "ValueParameter",
+      "value": 10.0
+    },
+    "3:SCMPgain": {
+      "_type": "ValueParameter",
+      "value": 10.0
+    },
+    "2:SCMFeedbackSetpoint": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 200.0,
+        "unit": "mV"
+      }
+    },
+    "3:SCMFeedbackSetpoint": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 200.0,
+        "unit": "mV"
+      }
+    },
+    "2:SCMFeedbackUpperLimit": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 6.0,
+        "unit": "V"
+      }
+    },
+    "3:SCMFeedbackUpperLimit": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 6.0,
+        "unit": "V"
+      }
+    },
+    "2:DC Test Bias": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:DC Test Bias": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:DC Sample Bias": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:DC Sample Bias": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:SampleBiasWithPiezo": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:SampleBiasWithPiezo": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:Bias Upper Limit": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:Bias Upper Limit": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:Bias Lower Limit": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:Bias Lower Limit": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:Feedback Igain": {
+      "_type": "ValueParameter",
+      "value": 0
+    },
+    "3:Feedback Igain": {
+      "_type": "ValueParameter",
+      "value": 0
+    },
+    "2:TunaFeedbackSetpoint": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:TunaFeedbackSetpoint": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:DriveFrequency3SoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.953125,
+        "unit": "kHz"
+      }
+    },
+    "3:DriveFrequency3SoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.005,
+        "unit": "kHz"
+      }
+    },
+    "2:DriveFrequency3NonSoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.005,
+        "unit": "kHz"
+      }
+    },
+    "3:DriveFrequency3NonSoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.005,
+        "unit": "kHz"
+      }
+    },
+    "2:DriveAmplitude3SoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 156.9874,
+        "unit": "mV"
+      }
+    },
+    "3:DriveAmplitude3SoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "2:DriveAmplitude3NonSoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "3:DriveAmplitude3NonSoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "2:DriveAmplitude3NonSoftHarmoniX2X": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "3:DriveAmplitude3NonSoftHarmoniX2X": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "2:Drive3 DC Offset": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:Drive3 DC Offset": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:ReferenceFrequency3SoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 1.953125,
+        "unit": "kHz"
+      }
+    },
+    "3:ReferenceFrequency3SoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.005,
+        "unit": "kHz"
+      }
+    },
+    "2:ReferenceFrequency3NonSoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.005,
+        "unit": "kHz"
+      }
+    },
+    "3:ReferenceFrequency3NonSoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.005,
+        "unit": "kHz"
+      }
+    },
+    "2:LockIn3BWSoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.8242188,
+        "unit": "kHz"
+      }
+    },
+    "3:LockIn3BWSoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.005,
+        "unit": "kHz"
+      }
+    },
+    "2:LockIn3BWNonSoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.005,
+        "unit": "kHz"
+      }
+    },
+    "3:LockIn3BWNonSoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.005,
+        "unit": "kHz"
+      }
+    },
+    "2:Analog3": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:Analog3": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:Analog4": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:Analog4": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:TR Drive Amplitude": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "3:TR Drive Amplitude": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "2:TR Lock-In Phase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "3:TR Lock-In Phase": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "2:DrivePhase3NonSoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "3:DrivePhase3NonSoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "2:SSRMSampleBias": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "3:SSRMSampleBias": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "V"
+      }
+    },
+    "2:TMFbIgain": {
+      "_type": "ValueParameter",
+      "value": 0.5
+    },
+    "3:TMFbIgain": {
+      "_type": "ValueParameter",
+      "value": 0.5
+    },
+    "2:TMFbPgain": {
+      "_type": "ValueParameter",
+      "value": 5.0
+    },
+    "3:TMFbPgain": {
+      "_type": "ValueParameter",
+      "value": 5.0
+    },
+    "2:AFMFbIgain": {
+      "_type": "ValueParameter",
+      "value": 2.0
+    },
+    "3:AFMFbIgain": {
+      "_type": "ValueParameter",
+      "value": 2.0
+    },
+    "2:AFMFbPgain": {
+      "_type": "ValueParameter",
+      "value": 5.0
+    },
+    "3:AFMFbPgain": {
+      "_type": "ValueParameter",
+      "value": 5.0
+    },
+    "2:SoftHarmoniXFbIgain": {
+      "_type": "ValueParameter",
+      "value": 30.0
+    },
+    "3:SoftHarmoniXFbIgain": {
+      "_type": "ValueParameter",
+      "value": 10.0
+    },
+    "2:SoftHarmoniXFbPgain": {
+      "_type": "ValueParameter",
+      "value": 0
+    },
+    "3:SoftHarmoniXFbPgain": {
+      "_type": "ValueParameter",
+      "value": 0
+    },
+    "2:STMFbIgain": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "3:STMFbIgain": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "2:STMFbPgain": {
+      "_type": "ValueParameter",
+      "value": 2.0
+    },
+    "3:STMFbPgain": {
+      "_type": "ValueParameter",
+      "value": 0
+    },
+    "2:STMESFbIgain": {
+      "_type": "ValueParameter",
+      "value": 10.0
+    },
+    "3:STMESFbIgain": {
+      "_type": "ValueParameter",
+      "value": 10.0
+    },
+    "2:STMESFbPgain": {
+      "_type": "ValueParameter",
+      "value": 0
+    },
+    "3:STMESFbPgain": {
+      "_type": "ValueParameter",
+      "value": 0
+    },
+    "2:DriveAmplitude4SoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 6.103516,
+        "unit": "mV"
+      }
+    },
+    "3:DriveAmplitude4SoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "mV"
+      }
+    },
+    "2:BaselineAvgPtsSoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": 17.0
+    },
+    "3:BaselineAvgPtsSoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": 32.0
+    },
+    "2:DeflLowPassFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2.5,
+        "unit": "kHz"
+      }
+    },
+    "3:DeflLowPassFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2.5,
+        "unit": "kHz"
+      }
+    },
+    "2:DeflLowPassFrequencySoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 40.0,
+        "unit": "kHz"
+      }
+    },
+    "3:DeflLowPassFrequencySoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 40.0,
+        "unit": "kHz"
+      }
+    },
+    "2:FricLowPassFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2.539063,
+        "unit": "kHz"
+      }
+    },
+    "3:FricLowPassFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2.0,
+        "unit": "kHz"
+      }
+    },
+    "2:TMDeflLowPassFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2.5,
+        "unit": "kHz"
+      }
+    },
+    "3:TMDeflLowPassFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2.0,
+        "unit": "kHz"
+      }
+    },
+    "2:CurrentLowPassFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 10.0,
+        "unit": "kHz"
+      }
+    },
+    "3:CurrentLowPassFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 10.0,
+        "unit": "kHz"
+      }
+    },
+    "2:OtherModesLowPassFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2.0,
+        "unit": "kHz"
+      }
+    },
+    "3:OtherModesLowPassFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2.0,
+        "unit": "kHz"
+      }
+    },
+    "2:TMFricLowPassFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 2.5,
+        "unit": "kHz"
+      }
+    },
+    "3:TMFricLowPassFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 10.0,
+        "unit": "kHz"
+      }
+    },
+    "2:FastZTMFbIgain": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "3:FastZTMFbIgain": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "2:FastZTMFbPgain": {
+      "_type": "ValueParameter",
+      "value": 1.0
+    },
+    "3:FastZTMFbPgain": {
+      "_type": "ValueParameter",
+      "value": 0
+    },
+    "2:InputIgain": {
+      "_type": "ValueParameter",
+      "value": 10.0
+    },
+    "3:InputIgain": {
+      "_type": "ValueParameter",
+      "value": 10.0
+    },
+    "2:InputPgain": {
+      "_type": "ValueParameter",
+      "value": 10.0
+    },
+    "3:InputPgain": {
+      "_type": "ValueParameter",
+      "value": 10.0
+    },
+    "2:TRFbIgain": {
+      "_type": "ValueParameter",
+      "value": 0.5
+    },
+    "3:TRFbIgain": {
+      "_type": "ValueParameter",
+      "value": 0.5
+    },
+    "2:TRFbPgain": {
+      "_type": "ValueParameter",
+      "value": 5.0
+    },
+    "3:TRFbPgain": {
+      "_type": "ValueParameter",
+      "value": 5.0
+    },
+    "2:VertDeflLowPassFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 10.0,
+        "unit": "kHz"
+      }
+    },
+    "3:VertDeflLowPassFrequency": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 10.0,
+        "unit": "kHz"
+      }
+    },
+    "2:TRLockInBW1": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 150.0,
+        "unit": "kHz"
+      }
+    },
+    "3:TRLockInBW1": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 150.0,
+        "unit": "kHz"
+      }
+    },
+    "2:DrivePhase3SoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "3:DrivePhase3SoftHarmoniX": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "deg"
+      }
+    },
+    "2:Output 1 Input Data": {
+      "_type": "SelectParameter",
+      "value": "Off"
+    },
+    "2:Output 2 Input Data": {
+      "_type": "SelectParameter",
+      "value": "Off"
+    },
+    "2:Output 1 Output Data": {
+      "_type": "SelectParameter",
+      "value": "Analog3"
+    },
+    "2:Output 2 Output Data": {
+      "_type": "SelectParameter",
+      "value": "Analog3"
+    },
+    "LogStiffnessOffset": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "log_Arb"
+      }
+    },
+    "LogSneddonModulusOffset": {
+      "_type": "ValueParameter",
+      "value": {
+        "value": 0.0,
+        "unit": "log_Arb"
+      }
+    }
+  },
+  "Fast Scan list": {
+    "Phase Shift": 508,
+    "Fast Integral Gain": 20,
+    "Fast Proportional Gain": 20,
+    "Fast Interleave Igain": 0,
+    "Fast Interleave Pgain": 0,
+    "Contact Gain": 123,
+    "Q-Control Gain": 0,
+    "QC Interleave Gain": 0,
+    "QC Lift Gain": 0,
+    "Z Sensor Preamp Gain": 0.550125,
+    "Z Sensor Preamp Offset": 0.0452991,
+    "High Pass Filter": 1,
+    "Low Pass Filter": 1,
+    "All Pass Filter": 1,
+    "Interleave Mode": "Disabled",
+    "Lift Mode": "Disabled",
+    "QC Interleave Mode": "Disabled",
+    "QC Lift Mode": "Disabled",
+    "Tapping Engage Fast I Gain": 10,
+    "Tapping Engage Fast P Gain": 10,
+    "Contact Engage Fast I Gain": 5,
+    "Contact Engage Fast P Gain": 5,
+    "Tapping Minimum Scanning I Gain": 0.1,
+    "Tapping Minimum Scanning P Gain": 0.1,
+    "Contact Minimum Scanning I Gain": 0.1,
+    "Contact Minimum Scanning P Gain": 0.1,
+    "Tapping Maximum Scan Rate": 3,
+    "Contact Maximum Scan Rate": 4,
+    "Determine Contact Gain": "Enabled",
+    "Check for active tip": "Enabled"
+  }
+}
