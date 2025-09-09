@@ -249,6 +249,15 @@ def find_best_offset_first_derivative_peak(offsets, num_spots_list, peak_promine
 
 for idx, afm_file in enumerate(afm_files):
 
+    # CSV file path to save categorised spots
+    csv_file_path = afm_file.replace('processed_pngs','manual_labels').replace('.png', '_categorised.csv')
+
+    print(f"Processing file {idx + 1} of {len(afm_files)}: {afm_file}")
+
+    if os.path.exists(csv_file_path):
+        print(f"Categorisation CSV already exists for {afm_file}. Skipping this file.")
+        continue
+
     # Define image
     # image = io.imread(afm_file, as_gray=True)
     image = cv2.imread(afm_file, cv2.IMREAD_GRAYSCALE)
@@ -265,28 +274,34 @@ for idx, afm_file in enumerate(afm_files):
     # Set any pixel with a value higher than the plane to the level of the plane
     filtered_image = np.minimum(image, plane)
 
-    # Find the best offset for local thresholding
-    offsets = list(range(1, 21)) * 5
     block_size = 19
-
-
+    offset_nm = 5  # start from 5
     num_spots_list = []
+    offsets = []
 
-    for offset_nm in offsets:
+    while True:
         local_thresh = filters.threshold_local(filtered_image, block_size=block_size, offset=offset_nm)
         dark_spots = filtered_image < local_thresh
         labeled_spots, _ = ndi.label(dark_spots)
         spot_sizes = np.bincount(labeled_spots.flat)[1:]
         num_spots = np.sum((spot_sizes >= 6) & (spot_sizes <= 199))
+
+        offsets.append(offset_nm)
         if num_spots > 150:
             num_spots_list.append(np.nan)  # invalid
+            print(f"Offset {offset_nm}: {num_spots} spots (too many, marked as NaN)")
         else:
-            num_spots_list.append(num_spots if num_spots > 0 else np.nan)    
+            num_spots_list.append(num_spots if num_spots > 0 else np.nan)
+            print(f"Offset {offset_nm}: {num_spots} spots")
 
-    best_offset = find_best_offset_first_derivative_peak(
-        offsets,
-        num_spots_list
-    )
+        if num_spots < 10:
+            print(f"Stopping search: only {num_spots} spots at offset {offset_nm}")
+            break
+
+        offset_nm += 5  # increase offset step by 5
+
+    best_offset = find_best_offset_first_derivative_peak(offsets, num_spots_list)
+
 
     print(f"Best offset determined: {best_offset}")
 
@@ -307,9 +322,6 @@ for idx, afm_file in enumerate(afm_files):
 
     # Initialise a DataFrame to store categorised spots
     spot_data = pd.DataFrame(columns=['x', 'y', 'size', 'category'])
-
-    # CSV file path to save categorised spots
-    csv_file_path = afm_file.replace('.png', '_categorised.csv')
 
     # Stack to keep track of categorised spots for undo functionality
     undo_stack = []
